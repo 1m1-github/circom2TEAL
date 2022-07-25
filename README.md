@@ -1,11 +1,8 @@
 # circom2TEAL
-create TEAL smart contracts from circom circuits to zero-knowledge-prove any quadratic statement
+create TEAL smart contracts from circom circuits to zero-knowledge-prove any quadratic statement  
 
-circom -> TEAL
-create the equivalent of snarkjs for another, non-EVM chain. this would be a very simple version with only the most basic functionality  
-
-mainly, create verification smart contracts and generate witness data in the correct format. the chain of choice would be Algorand, which runs the so-called AVM  
+create verification smart contracts and generate witness data in the correct format  
 
 the benefit of this tool would be that devs could start using circom to create zk proofs on Algorand  
  
-otherwise, the tool will use snarkjs to export the`verification key` and import that into a Algorand smart contract that can do elliptic curve algebra
+the tool will use `snarkjs` to export the`verification key` and import that into a Algorand smart contract that can do elliptic curve algebra
